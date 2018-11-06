@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WYAUIKit_Example' do
+  pod 'WYAUIKit', :path => '../'
+
+  target 'WYAUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
