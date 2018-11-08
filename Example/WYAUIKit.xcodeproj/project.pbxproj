@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2151DC422194202400A1D7E5 /* WYALabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151DC3A2194202400A1D7E5 /* WYALabelViewController.m */; };
+		2151DC432194202400A1D7E5 /* WYATextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151DC3C2194202400A1D7E5 /* WYATextFieldViewController.m */; };
+		2151DC442194202400A1D7E5 /* WYAUIKitSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2151DC3D2194202400A1D7E5 /* WYAUIKitSource.bundle */; };
+		2151DC452194202400A1D7E5 /* WYAButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151DC3E2194202400A1D7E5 /* WYAButtonViewController.m */; };
+		2151DC462194202400A1D7E5 /* WYATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151DC402194202400A1D7E5 /* WYATableViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24C228A7C94FAE7BBD7755EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2151DC392194202400A1D7E5 /* WYATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYATableViewController.h; sourceTree = "<group>"; };
+		2151DC3A2194202400A1D7E5 /* WYALabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYALabelViewController.m; sourceTree = "<group>"; };
+		2151DC3B2194202400A1D7E5 /* WYATextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYATextFieldViewController.h; sourceTree = "<group>"; };
+		2151DC3C2194202400A1D7E5 /* WYATextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYATextFieldViewController.m; sourceTree = "<group>"; };
+		2151DC3D2194202400A1D7E5 /* WYAUIKitSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WYAUIKitSource.bundle; sourceTree = "<group>"; };
+		2151DC3E2194202400A1D7E5 /* WYAButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAButtonViewController.m; sourceTree = "<group>"; };
+		2151DC3F2194202400A1D7E5 /* WYAButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAButtonViewController.h; sourceTree = "<group>"; };
+		2151DC402194202400A1D7E5 /* WYATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYATableViewController.m; sourceTree = "<group>"; };
+		2151DC412194202400A1D7E5 /* WYALabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYALabelViewController.h; sourceTree = "<group>"; };
+		24C228A7C94FAE7BBD7755EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3B7CBF56A0B277E994F38538 /* Pods-WYAUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYAUIKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYAUIKit_Example/Pods-WYAUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		58B009E471617439A1FB6B65 /* Pods_WYAUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYAUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* WYAUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYAUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +78,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		894957D4ED74A3D483E24E33 /* Pods-WYAUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYAUIKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYAUIKit_Tests/Pods-WYAUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AB4C94BD40EE2F333CC55C68 /* Pods-WYAUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYAUIKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYAUIKit_Tests/Pods-WYAUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFD2B1A43359EDAE9189BF8A /* WYAUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WYAUIKit.podspec; path = ../WYAUIKit.podspec; sourceTree = "<group>"; };
+		AFD2B1A43359EDAE9189BF8A /* WYAUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYAUIKit.podspec; path = ../WYAUIKit.podspec; sourceTree = "<group>"; };
 		ED5F9C1A8BE6AC9DA6CD991D /* Pods_WYAUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYAUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC4CCA849A1714522BBA54D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FC4CCA849A1714522BBA54D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +157,15 @@
 		6003F593195388D20070C39A /* Example for WYAUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				2151DC3F2194202400A1D7E5 /* WYAButtonViewController.h */,
+				2151DC3E2194202400A1D7E5 /* WYAButtonViewController.m */,
+				2151DC412194202400A1D7E5 /* WYALabelViewController.h */,
+				2151DC3A2194202400A1D7E5 /* WYALabelViewController.m */,
+				2151DC392194202400A1D7E5 /* WYATableViewController.h */,
+				2151DC402194202400A1D7E5 /* WYATableViewController.m */,
+				2151DC3B2194202400A1D7E5 /* WYATextFieldViewController.h */,
+				2151DC3C2194202400A1D7E5 /* WYATextFieldViewController.m */,
+				2151DC3D2194202400A1D7E5 /* WYAUIKitSource.bundle */,
 				6003F59C195388D20070C39A /* WYAAppDelegate.h */,
 				6003F59D195388D20070C39A /* WYAAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -280,6 +303,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				2151DC442194202400A1D7E5 /* WYAUIKitSource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,10 +362,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WYAUIKit_Example/Pods-WYAUIKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/WYAUIKit/WYAUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYAUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -355,9 +381,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2151DC452194202400A1D7E5 /* WYAButtonViewController.m in Sources */,
 				6003F59E195388D20070C39A /* WYAAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WYAViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				2151DC462194202400A1D7E5 /* WYATableViewController.m in Sources */,
+				2151DC432194202400A1D7E5 /* WYATextFieldViewController.m in Sources */,
+				2151DC422194202400A1D7E5 /* WYALabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

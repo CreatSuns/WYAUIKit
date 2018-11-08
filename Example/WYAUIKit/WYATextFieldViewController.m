@@ -7,7 +7,7 @@
 //
 
 #import "WYATextFieldViewController.h"
-
+#import <WYAUIKit/WYATextField.h>
 @interface WYATextFieldViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    
 }
 
 /*

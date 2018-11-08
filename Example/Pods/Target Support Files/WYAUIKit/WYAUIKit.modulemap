@@ -1,0 +1,6 @@
+framework module WYAUIKit {
+  umbrella header "WYAUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

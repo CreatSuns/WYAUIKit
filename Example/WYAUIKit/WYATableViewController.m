@@ -7,6 +7,9 @@
 //
 
 #import "WYATableViewController.h"
+#import "WYAButtonViewController.h"
+#import "WYALabelViewController.h"
+#import "WYATextFieldViewController.h"
 
 @interface WYATableViewController ()
 
@@ -27,25 +30,39 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return 3;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"systemID" forIndexPath:indexPath];
+    if (indexPath.row == 0) {
+        cell.textLabel.text = @"WYAButton";
+    }else if (indexPath.row == 1) {
+        cell.textLabel.text = @"WYALabel";
+    }else if (indexPath.row == 2) {
+        cell.textLabel.text = @"WYATextField";
+    }
     
     return cell;
 }
-*/
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 0) {
+        WYAButtonViewController * button = [[WYAButtonViewController alloc]init];
+        [self.navigationController pushViewController:button animated:YES];
+    }else if (indexPath.row == 1) {
+        WYALabelViewController * label = [[WYALabelViewController alloc]init];
+        [self.navigationController pushViewController:label animated:YES];
+    }else if (indexPath.row == 2) {
+        WYATextFieldViewController * textField = [[WYATextFieldViewController alloc]init];
+        [self.navigationController pushViewController:textField animated:YES];
+    }
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -80,14 +97,19 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"button"]) {
+        
+    }else if ([segue.identifier isEqualToString:@"label"]) {
+        
+    }
 }
-*/
+
 
 @end
