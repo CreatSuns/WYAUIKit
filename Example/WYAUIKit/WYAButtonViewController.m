@@ -7,7 +7,7 @@
 //
 
 #import "WYAButtonViewController.h"
-
+#import <WYAUIKit/WYAButton.h>
 @interface WYAButtonViewController ()
 
 @end
@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor grayColor];
+    
+    WYAButton * button = [[WYAButton alloc]initWithFrame:CGRectMake(0, 64, 50, 50)];
+
+    [button addCallBackAction:^(UIButton * _Nonnull button) {
+        NSLog(@"1");
+    } forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
 /*

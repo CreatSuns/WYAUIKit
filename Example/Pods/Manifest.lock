@@ -1,16 +1,23 @@
 PODS:
-  - WYAUIKit (0.1.0)
+  - WYAUIKit (0.1.0):
+    - YYText
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - WYAUIKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YYText
 
 EXTERNAL SOURCES:
   WYAUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WYAUIKit: 6edbda1f054c3e90af01fccc4389c02f2e3fe698
+  WYAUIKit: bbc7b922cbe758f3f80d2157c91253dff0c1e97c
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
 PODFILE CHECKSUM: 9e536d141f2ebc438c0a3b547312315610798b2a
 
-COCOAPODS: 1.6.0.beta.1
+COCOAPODS: 1.5.3

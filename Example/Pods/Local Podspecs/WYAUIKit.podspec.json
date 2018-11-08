@@ -1,7 +1,7 @@
 {
   "name": "WYAUIKit",
   "version": "0.1.0",
-  "summary": "A short description of WYAUIKit.",
+  "summary": "WYAUIKit组件库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/1228506851@qq.com/WYAUIKit",
   "license": {
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WYAUIKit/Classes/**/*"
+  "source_files": "WYAUIKit/Classes/**/*",
+  "dependencies": {
+    "YYText": [
+
+    ]
+  }
 }

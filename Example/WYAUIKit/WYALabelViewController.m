@@ -7,7 +7,7 @@
 //
 
 #import "WYALabelViewController.h"
-
+#import <WYAUIKit/WYALabel.h>
 @interface WYALabelViewController ()
 
 @end
@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    WYALabel * label = [[WYALabel alloc]initWithFrame:CGRectMake(0, 100, 100, 40)];
+    
+    [self.view addSubview:label];
+    
+    YYLabel * yyLabel = [WYALabel labelForYYLabelWithFrame:CGRectMake(0, 200, 100, 40) Title:@"YYLabel" TitleFont:16 TitleColor:[UIColor yellowColor] TitleAlign:WYALabelAlignTypeTop BackGroundColor:[UIColor redColor] BorderWidth:0 BorderColor:nil CornerRadius:0];
+    [self.view addSubview:yyLabel];
 }
 
 /*
